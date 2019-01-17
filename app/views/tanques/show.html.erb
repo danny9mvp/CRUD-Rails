@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @tanque.nombre %>
+</p>
+
+<p>
+  <strong>Caracteristicas:</strong>
+  <%= @tanque.caracteristicas %>
+</p>
+
+<%= link_to 'Editar', edit_tanque_path(@tanque) %> |
+<%= link_to 'Atrás', tanques_path %>

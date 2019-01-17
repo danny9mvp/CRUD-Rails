@@ -1,0 +1,2 @@
+class Tanque < ApplicationRecord
+end
